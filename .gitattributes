@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+build/
+*.exe
+*.o
+*.obj
+.vscode/
