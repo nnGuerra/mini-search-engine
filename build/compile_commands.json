@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/Roxs_/Documents/mini-search-engine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\search_engine.dir\\src\\main.cpp.obj -c C:\\Users\\Roxs_\\Documents\\mini-search-engine\\src\\main.cpp",
-  "file": "C:/Users/Roxs_/Documents/mini-search-engine/src/main.cpp",
-  "output": "CMakeFiles/search_engine.dir/src/main.cpp.obj"
-}
-]
