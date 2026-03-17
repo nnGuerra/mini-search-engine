@@ -4,7 +4,7 @@
 int main() {
     DocumentLoader loader;
 
-    auto documents = loader.load_documents("data/documents");
+    auto documents = loader.load_documents("data/docs");
     
     std::cout << "Loaded documents:\n\n";
     
