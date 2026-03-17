@@ -6,7 +6,7 @@ int main() {
 
     auto documents = loader.load_documents("data/docs");
     
-    std::cout << "Loaded documents:\n\n";
+    std::cout << "Documentos carregados:\n\n";
     
     for (const auto& doc : documents) {
         std::cout << doc.filename << std::endl;
