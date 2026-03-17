@@ -1,1 +1,1 @@
-Distributed systems power large search engines. 
+Sistemas distribuídos empoderam grandes motores de busca.

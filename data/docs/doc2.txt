@@ -1,1 +1,1 @@
-Machine learning improves search algorithms. 
+Aprendizagem de máquina melhora buscas algoritmicas.
