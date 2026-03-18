@@ -10,4 +10,5 @@ include_directories(include)
 add_executable(search_engine
     src/main.cpp
     src/loader/DocumentLoader.cpp
+    src/tokenizer/Tokenizer.cpp
 )
