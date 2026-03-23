@@ -12,4 +12,5 @@ add_executable(search_engine
     src/loader/DocumentLoader.cpp
     src/tokenizer/Tokenizer.cpp
     src/filter/Filter.cpp
+    src/index/InvertedIndex.cpp
 )
