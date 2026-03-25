@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <cctype>
 
-std::string Tokenizer::normalize(const std::string& text) {
+std::string Tokenizer::normalize(const std::string& text) const{
     std::string result;
 
     for (char c : text) {
@@ -16,7 +16,7 @@ std::string Tokenizer::normalize(const std::string& text) {
     return result;
 }
 
-std::vector<std::string> Tokenizer::tokenize(const std::string& text) {
+std::vector<std::string> Tokenizer::tokenize(const std::string& text) const{
     std::vector<std::string> tokens;
 
     std::string clean = normalize(text);

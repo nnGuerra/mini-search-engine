@@ -7,9 +7,7 @@ StopwordFilter::StopwordFilter() {
     };
 }
 
-std::vector<std::string> StopwordFilter::filter(
-    const std::vector<std::string>& tokens
-) {
+std::vector<std::string> StopwordFilter::filter(const std::vector<std::string>& tokens ) const {
     std::vector<std::string> result;
 
     for (const auto& token : tokens) {

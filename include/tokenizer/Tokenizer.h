@@ -5,8 +5,8 @@
 
 class Tokenizer {
 public:
-    std::vector<std::string> tokenize(const std::string& text);
+    std::vector<std::string> tokenize(const std::string& text) const;
 
 private:
-    std::string normalize(const std::string& text);
+    std::string normalize(const std::string& text) const;
 };
