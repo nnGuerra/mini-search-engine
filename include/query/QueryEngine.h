@@ -7,7 +7,7 @@
 
 struct SearchResult {
     int doc_id;
-    int score;
+    double score;
 };
 
 class QueryEngine {

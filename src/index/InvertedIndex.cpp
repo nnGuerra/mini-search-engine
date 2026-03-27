@@ -10,6 +10,7 @@ void InvertedIndex::add_document(int doc_id,const std::vector<std::string>& toke
     for (const auto& [term, freq] : term_count) {
         index[term].push_back({doc_id, freq});
     }
+    total_docs += 1;
 }
 
 const std::vector<Posting>& InvertedIndex::get_postings(const std::string& term) const {
@@ -20,4 +21,8 @@ const std::vector<Posting>& InvertedIndex::get_postings(const std::string& term)
     }
 
     return empty;
+}
+
+int InvertedIndex::get_total_docs() const {
+    return total_docs;
 }

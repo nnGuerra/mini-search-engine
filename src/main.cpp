@@ -26,8 +26,7 @@ void search(const std::string& query,const Tokenizer& tokenizer,const StopwordFi
         return;
     }
 
-    std::sort(results.begin(), results.end(),
-        [](const auto& a, const auto& b) {
+    std::sort(results.begin(), results.end(),[](const auto& a, const auto& b) {
             return a.score > b.score;
         }
     );
